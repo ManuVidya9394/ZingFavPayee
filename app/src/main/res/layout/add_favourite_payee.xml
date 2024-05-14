@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#151B15"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily=""
+        android:id="@+id/titleofdialog"
+        android:text="Add favourite Payee"
+        android:textColor="@color/secondarycolour"
+        android:textSize="@dimen/_25ssp"
+
+        />
+
+    <EditText
+        android:id="@+id/accountnumber"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Enter Account Number"
+        android:padding="@dimen/_8sdp" />
+
+    <EditText
+        android:id="@+id/payeename"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Enter Payee Number"
+        android:padding="@dimen/_8sdp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/bankname"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Enter Bank Number"
+        android:padding="@dimen/_8sdp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textColor="@color/white"
+        android:background="@drawable/login_button_bg"
+        android:layout_marginTop="@dimen/_30sdp"
+/>
+
+</LinearLayout>
